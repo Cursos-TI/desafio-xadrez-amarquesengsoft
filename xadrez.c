@@ -47,7 +47,41 @@ int main() {
         } while (i <= rainha);
         
 
-    
+    //Realização do Desafio Nível Aventureiro
+    //Implementação do código para movimentação do Cavalo com loop for
+
+        printf("Movimento do Cavalo Com Loop For\n");
+
+
+        for(int movimentoCavalo = 1; movimentoCavalo <= 1; movimentoCavalo++)
+        {
+            for (int movimentoCavalo2 = 1; movimentoCavalo2 <= 2; movimentoCavalo2++)
+            {
+                printf("Cima com For\n");
+            }
+            printf("Lado com For\n");
+        }
+
+    //Implementação do código para movimentação do cavalo como loop while
+
+        
+        printf("Movimento do Cavalo Com Loop While\n");
+
+        int movimentoCavaloWhile = 1;
+        int movimentoCavaloWhile2 = 1;
+
+        while (movimentoCavaloWhile <= 1)
+        {
+            while (movimentoCavaloWhile2 <= 2)
+            {
+                printf("Cima com While\n");
+                movimentoCavaloWhile2++;
+            }
+                printf("Lado com While\n");
+                movimentoCavaloWhile++;
+        }
+        
+        
 
     return 0;
 }
